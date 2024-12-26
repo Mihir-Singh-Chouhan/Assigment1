@@ -10,9 +10,7 @@ body{
     min-height: 100vh;
     background-color: #c5d3e3;
     background-image: linear-gradient(to left, #6b94c3,#fff);
-   
     font-family: "Martel Sans", serif;
-    
     font-style: normal;
 }
 html {
@@ -21,15 +19,10 @@ html {
 hr{
     border: none;
     border-top: 2px solid #ccc;
-
 }
-/* .hamburger
-{
-    content-visibility: hidden;
-} */
+
 header
 {
-
     background-color: #8f9aa4;
     min-height: 10vh;
     position: relative;
@@ -40,10 +33,8 @@ header
 }
 nav{
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;  
 }
-
 
 .menu-icon
 {
@@ -53,7 +44,6 @@ nav{
     transform: translateY(-20%);
     height: 25px;
     cursor: pointer;
-    
 }
 #menu-option
 {
@@ -66,8 +56,6 @@ nav{
     gap: 20px;
     cursor: pointer;
     color: #0e0d0d;
-    
-    
 }
 
 a,u
@@ -88,8 +76,7 @@ a,u
 .main
 {
     flex: 1;
-    height: 100%;
-   
+    height: 100%; 
 }
 
 .container
@@ -97,7 +84,6 @@ a,u
     display: flex;
     justify-content: space-between;  
     height: 100vh;
-   
     align-items: center;
     background-color: #c5defa;
 }
@@ -111,7 +97,6 @@ a,u
     text-align: center;
     gap: 20px;
     font-size: 24px;
-   
 }
 
 .get-info
@@ -119,9 +104,7 @@ a,u
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin-top: 20px;
-
+    padding: 10px 20px;
 }
 
  .get-info button
@@ -136,7 +119,6 @@ a,u
     border-radius: 5px;  
     cursor: pointer;  
     border: none;
-    
  }
  .hero-image
  {
@@ -152,24 +134,17 @@ a,u
     display: flex;
     justify-content: center;
     object-fit: cover;
-
  }
 
-
- .get-info:hover {
-    background-color:hsl(30, 25%, 97%);
+  
+.get-info:hover
+{
+         background-color:hsl(30, 25%, 97%);
+         transform: translateY(-10px);
+         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.981);
 }
 
-.get-info:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.981);
-}
-
- .service
- {
-   margin-top: 15px;
-
- }
+ 
  .wrape1,.wrape2
  {
     display: flex;
@@ -178,18 +153,15 @@ a,u
 
  .know
  {
-    
     background-color: #2980b9;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
     padding: 5px 10px;
     cursor: pointer;
     width: fit-content;
     font-size: 1rem;
     border: none;
     border-radius: 30px;
-    margin-top: 10px;
  }
 
  .card-image
@@ -211,7 +183,6 @@ a,u
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
     cursor: pointer;
     margin: 50px;
  }
@@ -248,7 +219,6 @@ a,u
     text-align: center;
     font-size: 1.2rem;
     gap: 50px;
- 
 }
 
 .social-media-links
@@ -258,14 +228,12 @@ a,u
     align-items: center;
     cursor: pointer;
     gap: 30px;
-
 }
 
 .social-media-links:hover
 {
     transition: width 2s;
     transform: translateY(-5px);
-    
 }
 /* CSS for contact form */
 
@@ -292,17 +260,14 @@ h2 {
 .contact-form form {
     display: flex;
     flex-direction: column;
-  
 }
 
 
 .contact-form fieldset {
-    border: 2px solid #ddd;
+    border: 2px solid #0a0a0a98;
     border-radius: 8px;
     padding: 20px;
-    padding-top: 0;
 }
-
 
 .contact-form legend {
     font-size: 18px;
@@ -310,7 +275,6 @@ h2 {
     font-weight: bold;
     padding-left: 10px;
 }
-
 
 .contact-form input {
     padding: 10px;
@@ -350,33 +314,11 @@ h2 {
 
 /* Contact form end */
 
-
-
-@media(min-width: 1200px)
-{
-    body
-    {
-        font-size: 24px;
-        display: flex;
-        flex-direction: column;
-        
-        background-color: #F8FAFC;
-    }
-    
-   .pricing
-   {
-    flex-direction: column;
- 
-   }
-    
-}
-
 @media(min-width: 768px) and (max-width: 1199px)
 {
     body
     {
         font-size: 14px;
-
     }
     .container
     {
@@ -400,12 +342,10 @@ h2 {
             height: 200px;
             width: 300px;
         }
-
     }
     .pricing
     {
        flex-direction: column;
-
     }
 }
 
@@ -414,7 +354,6 @@ h2 {
     body
     {
         font-size:12px;
-        
     }
     .container
     {
@@ -439,7 +378,6 @@ h2 {
             height: 150px;
             width: 200px;
         }
-
     }
 
     .wrape1,.wrape2
@@ -451,7 +389,6 @@ h2 {
     .pricing
     {
         flex-direction: column;
-       
     }
 
     .nav-links
@@ -462,7 +399,6 @@ h2 {
     {
        display: none;
        background-image: url(menu.png);
-       
     }
 
     #menu-option
@@ -490,5 +426,4 @@ h2 {
     display: flex;
     content-visibility: visible;
 }
-
 }
