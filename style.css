@@ -8,8 +8,12 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #F8FAFC;
-    font-family: po;
+    background-color: #c5d3e3;
+    background-image: linear-gradient(to left, #6b94c3,#fff);
+   
+    font-family: "Martel Sans", serif;
+    
+    font-style: normal;
 }
 html {
     scroll-behavior: smooth;
@@ -26,7 +30,7 @@ hr{
 header
 {
 
-    background-color: #9AA6B2;
+    background-color: #8f9aa4;
     min-height: 10vh;
     position: relative;
     display: flex;
@@ -53,7 +57,7 @@ nav{
 }
 #menu-option
 {
-    content-visibility: hidden;
+    display: none;
 }
 .nav-links
 {
@@ -95,7 +99,7 @@ a,u
     height: 100vh;
    
     align-items: center;
-    background-color: #D9EAFD;
+    background-color: #c5defa;
 }
 
 .hero-text{
@@ -153,12 +157,12 @@ a,u
 
 
  .get-info:hover {
-    background-color: #2980b9;
+    background-color:hsl(30, 25%, 97%);
 }
 
 .get-info:hover {
     transform: translateY(-10px);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.981);
 }
 
  .service
@@ -197,18 +201,19 @@ a,u
 
  .card1
  {
-    background-color: rgba(255, 255, 255, 0.2);   
+    background-color: rgb(242, 236, 236);   
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(22, 21, 21, 0.1);
+    box-shadow: 0 9px 12px rgba(15, 15, 15, 0.567);
     width: 50%;  
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
     cursor: pointer;
+    margin: 50px;
  }
 
  .card1:hover
@@ -252,7 +257,6 @@ a,u
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    /* flex-direction: column; */
     gap: 30px;
 
 }
@@ -267,12 +271,14 @@ a,u
 
 
 .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
-    padding: 30px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
 }
 
 
@@ -286,6 +292,7 @@ h2 {
 .contact-form form {
     display: flex;
     flex-direction: column;
+  
 }
 
 
@@ -321,9 +328,9 @@ h2 {
 
 .contact-form button {
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #0077ff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -331,7 +338,7 @@ h2 {
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #0253a9;
 }
 
 
@@ -368,7 +375,7 @@ h2 {
 {
     body
     {
-        font-size: 16px;
+        font-size: 14px;
 
     }
     .container
@@ -376,8 +383,8 @@ h2 {
         flex-direction: column;
         img
         {
-            height: 300px;
-            width: 400px;
+            height: 250px;
+            width: 300px;
         }
     }
     .service
@@ -406,7 +413,7 @@ h2 {
 {
     body
     {
-        font-size:14px;
+        font-size:12px;
         
     }
     .container
@@ -414,8 +421,8 @@ h2 {
         flex-direction: column;
         img
         {
-            height: 300px;
-            width: 400px;
+            height: 150px;
+            width: 200px;
         }
     }
     .service
@@ -429,8 +436,8 @@ h2 {
     {
         img
         {
-            height: 200px;
-            width: 300px;
+            height: 150px;
+            width: 200px;
         }
 
     }
@@ -455,12 +462,12 @@ h2 {
     {
        display: none;
        background-image: url(menu.png);
-       z-index: 100;
+       
     }
 
     #menu-option
 {
-    content-visibility: visible;
+    display: flex;
     height: 40px;
     cursor: pointer;
 }
@@ -472,7 +479,7 @@ h2 {
     position: absolute;
     top: 60px;
     right: 10px;
-    background-color: #F8FAFC;
+    background-color: #edf0f4;
     padding: 10px;
     border-radius: 5px;
     width: 150px;
